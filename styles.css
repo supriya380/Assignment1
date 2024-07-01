@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fcfafb;
+    padding: 10px 20px;
+}
+
+nav .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    
+}
+
+nav a.contact:hover, nav a.contact:active {
+    background-color: #ddd;
+    border-radius: 4px;
+}
+
+header {
+    background-image: url('fam.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 50px 20px;
+    color: rgb(13, 4, 80);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+section .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 20px 0;
+}
+
+section .content img {
+    width: 45%;
+    height: auto;
+}
+
+section .content.video iframe {
+    width: 100%;
+    height: 400px;
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 200px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width : 300px;
+    height: 400px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group button {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-group button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #45a049;
+}
+.checkbox-container 
+{ display: flex; align-items: center; } 
+.checkbox-container input
+[type="checkbox"] { margin-right: 10px; }
