@@ -26,9 +26,15 @@ nav a {
     
 }
 
-nav a.contact:hover, nav a.contact:active {
-    background-color: #ddd;
-    border-radius: 4px;
+nav a:hover
+{
+    background-color: #a49c9c;
+}
+
+nav a:active
+{
+    background-color: #4CAF50;
+    color: white;
 }
 
 header {
